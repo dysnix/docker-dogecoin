@@ -1,6 +1,6 @@
 FROM debian:stretch-slim
 
-ENV DOGECOIND_VERSION 1.14.5
+ENV DOGECOIND_VERSION 1.14.6
 
 ENV DOGECOIN_URL https://github.com/dogecoin/dogecoin/releases/download/v${DOGECOIND_VERSION}/dogecoin-$DOGECOIND_VERSION-x86_64-linux-gnu.tar.gz
 
